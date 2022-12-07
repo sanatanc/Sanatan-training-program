@@ -1,0 +1,18 @@
+
+h1{
+color: blueviolet;
+padding: 0 auto;
+margin: 0 auto;
+}
+
+label{
+display: block;
+}
+
+fieldset{
+    max-width: 500px;
+}
+textarea{
+    width: 50%;
+    height: 5em;
+}

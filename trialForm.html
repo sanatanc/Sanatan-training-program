@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This be a practice for making forms.</title>
+    <link rel="stylesheet" href="/Project3/style.css">
+<h1 id="title">Here is the title </h1>    
+<p id="description">This is a concise description of the survey being done here. Please read the instructions carefully and put accurate information. 
+</p>
+</head>
+<body>
+    <fieldset>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name : <input type="text" id="name" placeholder="Your name here" required></label>
+        <label for="email" id="email-label">Email : <input type="email" id="email" placeholder="your email here" required></label>
+        <label for="number" id="number-label">Number : <input type="number" id="number"  min="0000000000" max="9999999999" placeholder="Your phone number here" required    ></label>
+       
+        <div style="border-bottom: black solid ; padding-top: 15px;"></div>
+
+       
+        <label for="dropdown" id="dropdown-label"  style="padding-top: 15px;">
+            <select name="dropdown" id="dropdown">
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+                <option value="four">four</option>
+                <option value="onethousand">One thousand eighty hundred</option>
+            </select></label>
+
+        <label for="radio" name="radio" id="radio-label" style="padding-top: 15px;>
+           <label for="radioOne"><input type="radio" name="radioOption"> Option one </label>
+
+            
+           <label for="radioTwo"><input type="radio" name="radioOption"> Option two </label>
+
+           <div style="border-bottom: black solid ; padding-top: 15px;"></div>
+
+
+        <label for="checkbox" style="padding-top: 15px;">
+            <label for="cbx1"><input type="checkbox"> Cheecckbox one</label>
+            <label for="cbx1"><input type="checkbox"> Cheecckbox two</label>
+            <label for="cbx1"><input type="checkbox"> Cheecckbox three</label>
+            <label for="cbx1"><input type="checkbox"> Cheecckbox four</label>
+            <label for="cbx1"><input type="checkbox"> Cheecckbox five</label>
+        </label>
+           
+        </label>    <br>
+
+        <label for="comments">Please input your comments here. <br><input type="textarea">
+        </label>
+        <button id="submit">Submit</button>
+
+
+    </fieldset>
+    </form>
+</body>
+</html> 
